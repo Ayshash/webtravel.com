@@ -1,0 +1,21 @@
+div.div1{
+background-color:orange;
+	padding:10px;
+	margin-bottom:20px;
+display:flex;
+justify-content:center;}	
+
+	
+
+
+.div1 ul{
+list-style:none;
+
+}
+.div1 li{
+display:inline-block;}
+
+.middle{
+background-color:red;
+	padding:10px;
+	margin-bottom:20px;}

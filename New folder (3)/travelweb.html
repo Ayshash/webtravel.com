@@ -1,0 +1,59 @@
+<html>
+<head>
+    <document>travel planner ebsite</document>
+<title>page1</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<div class="header">
+    <h1>Travel Planner guide</h1>
+</div>
+
+</br></br>
+<header>
+    <div class="div1">
+    <p class="para1">#travel          </p>
+    <ul>
+    <li><a href="home">home</a></li>
+    <li><a href="About">About</a></li> 
+    <li><a href="services">services</a></li>
+    <li><a href="conatact">contact</a></li>
+    </ul></header>
+  
+<div class="middle">
+
+<h2>IT'S A BIG WORLD OUT THERE, SO LIIVE YOUR ADVENTURE<h2>
+</br>
+<form id="loginForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <button type="submit">Login</button>
+</form>
+</div>
+
+<footer>
+<h1> START YOUR NEW ADVENTURE AROUND THE WORLD</h1>
+<p class="ending"> There are still many amazing destinations scattered around the world,you should try to viisit all of them.</P> 
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Attach event listener to login form
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        
+        // Validate email and password (you can add your validation logic here)
+        // For demonstration purpose, let's assume the email and password are valid
+        // You can use more advanced validation techniques and possibly connect to a backend for authentication
+        
+        // Redirect to another page
+        window.location.href = "page2.html";
+    });
+});
+
+</script>
+</body>
+</html>

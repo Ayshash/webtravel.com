@@ -1,0 +1,156 @@
+body{
+    background-color:rgb(137, 181, 218) ;
+}
+header{
+  background-color:rgb(42, 177, 94) ;
+  text-align:center;
+  color:black;
+  font-style: italic;
+  background-size:50% ;
+}
+
+p{
+  font-size:80px ;  
+  text-align: center;
+color:rgba(45, 3, 161, 0.817) ;
+
+}
+div#container {
+  font-size:100px;
+  color:rgb(14, 112, 205);
+
+  text-align:left;
+}
+div#container ul li{
+  font-size:90px;
+  color:black;
+}
+h5{  
+  text-transform: uppercase;
+  font-size:150px ;  
+    text-align:center;
+  color:rgba(45, 3, 161, 0.817) ;
+  
+  }
+  h1,h2{    
+    
+    font-size:150px ;  
+      text-align:center;
+    color:rgba(45, 3, 161, 0.817) ;
+    
+    }
+  h3,h4{
+    font-size:150px ;  
+    text-align:left;
+  color:rgba(45, 3, 161, 0.817) ;
+  }
+#para1{
+  font-size:80px ;  
+  text-align:left;
+}
+ul{
+  font-size:60px ;
+text-align:left;
+color:black;
+}
+
+
+img#MoHotels{
+   
+    justify-content: space-between;
+    
+    margin-right:5px;
+ 
+
+}
+img#MoHotels{
+   
+    justify-content: space-between;
+    
+    margin-right:5px;
+ 
+
+}
+/* Style for the select dropdown */
+select {
+    font-size:50px; /* Adjust font size as needed */
+    padding: 20px; /* Adjust padding as needed */
+    width: 300px; /* Adjust width as needed */
+  }
+  /* Style for the span */
+span {
+    font-size: 50px; /* Adjust font size as needed */
+    padding: 20px; /* Adjust padding as needed */
+    width:200px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+  }
+ 
+  
+table {
+    width: 100%; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+  }
+  
+table tr td{
+    
+  text-align: center;
+    table-layout: fixed; }
+    td{
+      text-align: center;
+    }
+tr img{
+    margin-right :100px;
+    width:50%;
+    height:50%;
+    border-radius: 10px;
+     
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+    }
+
+
+#food1,#food2 {
+    display: flex;
+   
+      justify-content: space-between; /* Adjust as needed */
+ padding: 3px; }
+ #food1 img{
+    margin-right :100px;
+width:100%;
+border-radius: 10px;
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+  #food2 img{
+    margin-right :100px;
+width:100%;
+border-radius: 10px;
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+  #place1,#place2{
+    display: flex;
+   
+      justify-content: space-between; /* Adjust as needed */}
+      #place1 img{
+margin-right :100px;
+width:100%;
+
+border-radius: 10px;
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#place2 img{
+    margin-right :100px;
+    width:100%;
+    
+    border-radius: 10px;
+     
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+    }  
+    ol li{
+      font-size:90px;
+      color:rgb(26, 104, 22); 
+      font-style:oblique;
+    }

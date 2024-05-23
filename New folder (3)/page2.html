@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylepage2.css">
+   </head>
+<body>
+    <header>
+        <p  id="pag1"> Let us take you to your dream destination </p>
+        
+        <p>Enter a Continent(asia,northamerica,southameria,europe,africa)</p>
+    </header>
+<div id="search">
+    <h1 >   Search your next holiday    </h1>
+</br>
+<form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Enter page name">
+    <button type="button" onclick="searchAndNavigate()">Search</button>
+</form>
+</div>
+<div class="images">
+    <img src="asia1.jpeg" height="10%">
+</br></br>
+<img src="asia2.jpeg" height="10%">
+</br></br>
+<img src="southamerica1.jpeg" height="10%">
+
+</br></br>
+<img src="southamerica3.jpeg" height="10%">
+</br></br>
+<img src="northamerica1.jpeg" height="10%">
+</br></br>
+<img src="northamerica2.jpeg" height="10%">
+</br></br>
+<img src="europe1.jpeg" height="10%">
+</br></br>
+<img src="europe2.jpeg" height="10%">
+</br></br>
+<img src="Africa1.1.jpeg" height="10%">
+</br></br>
+<img src="Africa2.jpeg" height="10%">
+</br></br>
+
+</div>
+   <footer id="foot"><h3>Plan your trip </h3>
+    <h4>let us plan you a perfect holiday</h4>
+   </footer>
+   <script>
+function searchAndNavigate() {
+    var searchTerm = document.getElementById('searchInput').value.trim();
+    if (searchTerm) {
+        // Construct the URL based on the input
+        var pageURL = searchTerm + ".html"; // Assuming page names are based on input
+
+        // Redirect to the page
+        window.location.href = pageURL;
+    }
+}
+   </script>
+</body>
+</html>
